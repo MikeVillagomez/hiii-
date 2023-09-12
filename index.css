@@ -1,0 +1,46 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-image: url('explorer-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply styles to the sections */
+section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Style contact information */
+#contact {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Style skills section */
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    display: inline;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Style education and work experience entries */
+li {
+    margin-bottom: 10px;
+}
